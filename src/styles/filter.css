@@ -1,0 +1,45 @@
+.filter-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 6px;
+    background: hsl(180, 31%, 95%);
+    color: hsl(180, 29%, 50%);
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.filter-box {
+    padding: 7px 10px 5px 10px;
+}
+
+.filter-btn-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background: hsl(180, 29%, 50%);
+    border-radius: 0px 3px 3px 0px;
+}
+
+.filter-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    border: none;
+    color: white;
+    background: hsl(180, 29%, 50%);
+    cursor: pointer;
+    height: 100%;
+    border-radius: 0px 3px 3px 0px;
+}
+.filter-btn:hover {
+    background: hsl(180, 14%, 20%);
+}
+
+.filter-btn img{
+    height: 12px;
+}
+
+
+
